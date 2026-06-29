@@ -43,23 +43,20 @@
 	Validating the dataset to eliminate data quality issues.															
 	Loading the cleaned dataset back into Excel for analysis.															
 	These steps ensured that the data was accurate, consistent, and ready for meaningful analysis.															
+			
 			Cleaned Data Set													
 <img width="893" height="239" alt="Cleaned Data Image" src="https://github.com/user-attachments/assets/6b0b7749-b3a6-4f3c-9b8c-5f9fcead079f" />
 	
   📊 Exploratory Data Analysis (EDA)															
 	Using Excel, I explored the dataset to understand customer behavior, product performance, and sales trends.															
 	Key Findings															
-	Average Order Value: $1,053.97															
-	Average Quantity Purchased: 2.95 items															
-	Average Items in Cart: 5.5															
-	Top Revenue-Generating Products:															
-	Chair															
+	Average Order Value: $1,053.97													Average Quantity Purchased: 2.95 items											Average Items in Cart: 5.5															
+	Top Revenue-Generating Products:												Chair															
 	Printer															
 	Laptop															
-	Highest Revenue Payment Method:															
-	Credit Card															
-	Best Marketing Channel:															
-	Instagram															
+	Highest Revenue Payment Method:													Credit Card															
+	Best Marketing Channel:															Instagram															
+	
 	Outlier analysis also revealed several unusually large transactions (above $1,751.93), suggesting bulk purchases or promotional sales.															
 
 DESCRIPTIVE STATISTICS ANALYSIS FOR DEEPER  DATA INSIGHTS														
@@ -73,18 +70,14 @@ PIVOT TABLES USED TO ANALYZE TRENDS
 
 	💾 SQL Analysis															
 	After cleaning the dataset, I imported it into Microsoft SQL Server and used SQL queries to analyze business performance.															
-	The analysis included:															
-	Data validation															
-	Filtering and aggregation															
-	KPI calculation															
+	The analysis included:															Data validation															
+	Filtering and aggregation														KPI calculation															
 	Customer analysis															
-	Product performance reporting															
-	Revenue analysis															
-		CLEANED DATA USING SQL														
-<img width="683" height="281" alt="Cleaned_Sql_Data" src="https://github.com/user-attachments/assets/58da8dcd-2ca3-493b-b64a-1efbee480e1d" />
+	Product performance reporting													Revenue analysis															
+		
+		CLEANED DATA USING SQL														<img width="683" height="281" alt="Cleaned_Sql_Data" src="https://github.com/user-attachments/assets/58da8dcd-2ca3-493b-b64a-1efbee480e1d" />
 																
-		TABLE CREATED USING SQL														
-<img width="695" height="258" alt="ALL TABLE" src="https://github.com/user-attachments/assets/088d2f6b-e98a-4ab2-9fa7-17b693af51f3" />
+		TABLE CREATED USING SQL														<img width="695" height="258" alt="ALL TABLE" src="https://github.com/user-attachments/assets/088d2f6b-e98a-4ab2-9fa7-17b693af51f3" />
 																
 		TABLE ALTERATION TO INSERT YEAR AND MONTH COLUMN	
 <img width="380" height="394" alt="Adding year and month image" src="https://github.com/user-attachments/assets/eaca996f-a65c-48db-81b3-23f9d3cbb639" />
@@ -96,9 +89,11 @@ TABLE CREATED USING GROUP BY TO DISPLAY REVENUE BY PRODUCT
 <img width="259" height="248" alt="Product by Revenue image" src="https://github.com/user-attachments/assets/b292cd37-c1d7-4e86-a813-047b551e6985" />
 
 TABLE CREATED USING HAVING CLAUSE TO DISPLAY PRODUCTS GREATER THAN 150,000	
+
 <img width="331" height="296" alt="Revenue greater than 150,000 image" src="https://github.com/user-attachments/assets/cd5e56fe-7dc0-4f0b-8b87-186a9c9f9423" />
 
 TABLE CREATED USING ORDER BY AND CASE STATEMENT TO DISPLAY MONTHLY REVENUE TREND	
+
 <img width="308" height="364" alt="Monthly Trend Revenue image" src="https://github.com/user-attachments/assets/c79c0d36-86bf-4833-af46-01db4fbcec0b" />
 
       AGGREGATE TABLE CREATED TO DISPLAY TOTAL REVENUE		
@@ -107,14 +102,12 @@ TABLE CREATED USING ORDER BY AND CASE STATEMENT TO DISPLAY MONTHLY REVENUE TREND
 			AGGREGATE TABLE CREATED TO SHOW TOP 5 PRODUCTS	
 <img width="263" height="236" alt="Top 5 product image" src="https://github.com/user-attachments/assets/b2810a75-463d-4d93-a716-758648cc8179" />
 
-  Business Performance Summary															
-																
-	KPI	Result														
+ 
+  
+  Business Performance Summary													  
+    KPI	Result														
 	Total Orders	1,200														
-	Total Revenue	$1,264,761.96 														
-	Average Order Value	$1,053.97 														
-	Average Quantity per Order	2 Items														
-	Cancelled Orders	250														
+	Total Revenue	$1,264,761.96 													Average Order Value	$1,053.97 													Average Quantity per Order	2 Items												Cancelled Orders	250														
 																
 																
 	📈 Key Business Insights															
@@ -142,31 +135,23 @@ TABLE CREATED USING ORDER BY AND CASE STATEMENT TO DISPLAY MONTHLY REVENUE TREND
 	Continuing to promote high-performing products such as Chairs, Printers, and Laptops.															
 	Monitoring high-value transactions separately to better understand customer purchasing behaviour and promotional effectiveness.															
 																
-																
-	📚 Skills Demonstrated															
-	Throughout this project, I strengthened my skills in:															
-	Data Cleaning															
+📚 Skills Demonstrated															
+	Throughout this project, I strengthened my skills in:							Data Cleaning															
 	Data Transformation															
 	Power Query															
-	Exploratory Data Analysis (EDA)															
-	SQL Querying															
+	Exploratory Data Analysis (EDA)													SQL Querying															
 	Aggregate Functions															
 	CASE Statements															
 	GROUP BY & HAVING															
 	Joins															
-	Common Table Expressions (CTEs)															
-	KPI Development															
+	Common Table Expressions (CTEs)													KPI Development															
 	Business Reporting															
 	Data Storytelling															
 																
 																
 	📌 Conclusion															
-	This project demonstrates my ability to work with raw business data and transform it into actionable insights using Excel and SQL Server.															
-	From cleaning and preparing the data to performing exploratory analysis and writing SQL queries, I gained practical experience in solving real business problems through data. The insights generated from this project provide valuable information on customer behaviour, product performance, payment preferences, marketing effectiveness, and overall business performance.															
-	More importantly, this project reflects my passion for using data to support informed decision-making and create business value.															
-																
-																
-	👤 About Me															
+	This project demonstrates my ability to work with raw business data and transform it into actionable insights using Excel and SQL Server.				From cleaning and preparing the data to performing exploratory analysis and writing SQL queries, I gained practical experience in solving real business problems through data. The insights generated from this project provide valuable information on customer behaviour, product performance, payment preferences, marketing effectiveness, and overall business performance.						More importantly, this project reflects my passion for using data to support informed decision-making and create business value.															
+👤 About Me															
 	Nathaniel Adejumo															
 	Aspiring Data Analyst with a growing passion for transforming data into meaningful insights. I enjoy working with SQL, Excel, Power BI, and data visualization to solve business problems and continuously expand my analytical skills.															
 	Thank you for taking the time to explore my project. Feedback and suggestions are always welcome.															
